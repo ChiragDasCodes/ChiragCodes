@@ -4,37 +4,37 @@ document.addEventListener("DOMContentLoaded", function() {
             id: 1,
             name: "Woodland Leather Office Bag",
             price: 29.99,
-            image: "./images/product1.png"
+            image: "product1.png"
         },
         {
             id: 2,
             name: "SkyBags School Bag",
             price: 39.99,
-            image: "./images/product2.png"
+            image: "product2.png"
         },
         {
             id: 3,
             name: "Zara Ladies Purse",
             price: 49.99,
-            image: "./images/product3.png"
+            image: "product3.png"
         },
         {
             id: 4,
             name: "Casio Analogue Watch",
             price: 59.99,
-            image: "./images/product4.png"
+            image: "product4.png"
         },
         {
             id: 5,
             name: "Trendy Men Shirt Yellow",
             price: 49.99,
-            image: "./images/product5.png"
+            image: "product5.png"
         },
         {
             id: 6,
             name: "Nike Sneakers Grey",
             price: 59.99,
-            image: "./images/product6.png"
+            image: "product6.png"
         }
     ];
 
