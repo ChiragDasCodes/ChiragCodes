@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chirag's ShopMate</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#home"><img src="../Chirag Portfolio/logo.png" alt="ShopMate Logo"></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#cart" class="cart-link"><i class="fas fa-shopping-cart"></i><span class="cart-count">0</span></a></li>
+            </ul>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h1 class="text-shadow">Welcome to ShopMate</h1>
+            <p class="text-shadow">Your one-stop shop for everything!</p>
+            <a href="#shop" class="btn">Shop Now</a>
+        </div>
+    </section>
+
+    <section id="shop" class="products">
+        <div class="container">
+            <h2>Our Products</h2>
+            <div class="product-grid">
+                <!-- Product items will be inserted here by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <section id="cart" class="cart">
+        <div class="container">
+            <h2>Your Cart</h2>
+            <div class="cart-items">
+                <!-- Cart items will be inserted here by JavaScript -->
+            </div>
+            <div class="cart-total">
+                <p>Total: $<span class="total-price">0.00</span></p>
+                <button class="btn checkout-btn">Checkout</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Welcome to ShopMate, your premier online destination for a wide range of high-quality products at affordable prices. At ShopMate, we are dedicated to providing our customers with the best shopping experience possible, offering a diverse selection of products from electronics to fashion, all curated to meet your needs.<br>
+            <br> mission is to make shopping easy, enjoyable, and accessible to everyone, ensuring that you find exactly what you’re looking for with just a few clicks. Whether you’re searching for the latest gadgets, trendy fashion items, or everyday essentials, ShopMate is your go-to place.<br>
+            <br>Explore our collection today and discover why ShopMate is the ultimate shopping destination for savvy shoppers everywhere.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Have any questions? Feel free to reach out to us!</p>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 ShopMate Made By Chirag Das. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
